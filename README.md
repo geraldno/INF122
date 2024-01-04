@@ -1,2 +1,2 @@
-inf122
-Gerald Luis Chavez Pereira
+NOMBRE: Gerald Luis Chavez Pereira
+MATERIA: INF-122
