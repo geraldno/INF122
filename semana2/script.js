@@ -4,4 +4,4 @@ function agregarTarea() {
     nuevoItem.textContent = tarea;
     document.getElementById("tarea-lista").appendChild(nuevoItem);
     document.getElementById("nueva-tarea").value="";
-}
+}  
