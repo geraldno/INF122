@@ -35,3 +35,24 @@ if (numero % 2 === 0) {
         contador1--;
         console.log(contador1)
     }
+
+
+     var elemento = colores.find(function comparador (elemento){
+        return elemento === "rojo";
+    });
+
+        var elemento = colores.findIndex(function comparador (elemento){
+            return elemento === "1";
+        });
+    
+        function saludar (nombre){
+            return "Hola," + nombre+"!";
+        }
+        const mensaje = saludar("gerald")
+
+
+        function suma (){
+            n1=a; n2=b;
+            sumas= n1+n2
+            return sumas;
+        }
