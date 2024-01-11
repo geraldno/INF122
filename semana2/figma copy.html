@@ -51,7 +51,7 @@
         font-size: var(--md);
         margin: 5px 0 5px 0;
     }
-    .primary-button{
+    .primary-button {
         background-color: var(--purple);
         color: var(--white);
         border: none;
@@ -59,7 +59,7 @@
         padding: 10px 20px;
         font-size: var(--md);
         cursor: pointer;
-        margin: 100px 0 100px 0;    
+        margin: 100px 0 100px 0;
 }
 .more-info{
     display: grid;
@@ -102,6 +102,16 @@
     font-size: var(--sm);
     margin: 0;
 }
+
+@media(max-width: 720px){
+    .icons-container{
+        grid-template-columns: repeat(1,1fr);
+        margin: 50px 10px 50px 10px;
+    }
+    .subtitle{
+            display: none;
+    }
+}
 </style>
 
 <body>
@@ -110,8 +120,9 @@
             <h1 class="title">Situacional Awareness in the Workplace</h1>
             <p class="subtitle">Free product design ill unstrations for startups and designers </p>
             <p class="subtitle">High-quality digital assets that have been tested and reviewed by a team of</p>
-            <button class="primary-button" value=""> <span>Download Brochure</span> </button>
+            <button class="primary-button"> <img src="icons/bx_bxs-download.svg"> <span>Download Brochure</span> </button>
         </div>
+        
         <div class="more-info">
             <section class="icons-container">
                 <div class="card-container">
