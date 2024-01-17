@@ -1,0 +1,12 @@
+.juego-tablero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.juego {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+}

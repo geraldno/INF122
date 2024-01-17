@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Tablero from './components/Tablero';
+import React from 'react';
+import Juego from './components/Juego';
 
 function App() {
   return (
     <div className='App'>
-      <Tablero/>
+      <Juego/>
     </div>
   );
 }
