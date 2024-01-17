@@ -6,6 +6,8 @@ import { useState } from 'react';
 
 function App() {
   const [nroClicks, setNumClicks] = useState(0);
+  const [show, setShow] = useState (true);
+
   const click=() =>{
     setNumClicks(nroClicks + 1);
     console.log("click");
@@ -33,6 +35,10 @@ function App() {
   const mas1=() =>{
     setNumClicks(nroClicks + 1);
     console.log("click");
+  }
+
+  const mostrar = () => {
+    setShow(!show);
   }
   return (
     <div className='App'>
