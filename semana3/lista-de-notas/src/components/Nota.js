@@ -9,7 +9,7 @@ function Nota({ nota, onDelete, onEdit }) {
         setEditando(false);
     };
 
-    return (
+    return ( 
         <div>
             {editando ? (
                 <div className='editar-nota'>
