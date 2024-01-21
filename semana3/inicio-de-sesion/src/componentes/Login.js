@@ -1,9 +1,10 @@
 import React from "react";
+import Boton from "../componentes/Boton.js"
 import "../styles/Login.css"
 
 function Login(){
     const click =() =>{
-        console.log();
+        console.log(Text);
       }
 
     return(
@@ -20,8 +21,8 @@ function Login(){
                 </div>
 
                 <div className="botones-login">
-                <button className="boton-registrar" funClick={()=>click("Login")}>Registrar</button>
-                <button className="botton-ingresar" >Ingresar</button>
+                <Boton className="boton-registrar" funClick={()=>click()} Text={"Registrar"}>{Text="Registrar"}</Boton>
+                <Boton className="boton-ingresar" funClick={()=>click()} Text={"Ingresar"}>{Text="Ingresar"}</Boton>
                 </div>
         </div>
         </div>

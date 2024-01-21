@@ -1,6 +1,10 @@
 import React from "react";
+import Boton from "./Boton";
 
 function Perfil(){
+    const click =() =>{
+        console.log(Text);
+      }
     return(
         <div className="padre">
 
@@ -20,7 +24,7 @@ function Perfil(){
             </div>
 
             <div className="">
-            <button className="boton-editar">Editar</button>
+            <Boton className="boton-editar" funClick={()=>click()} Text={"Editar"}>{Text="Editar"}</Boton>
             </div>
             
     </div>

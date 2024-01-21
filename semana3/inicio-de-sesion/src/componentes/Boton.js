@@ -1,9 +1,11 @@
 import React from "react";
 
-function Boton({funClick, text}){
+function Boton({funClick, Text}){
     return(
         <button onClick={funClick}>
-            {text}
+            {Text}
         </button>
     );
 }
+
+export default Boton;
