@@ -1,0 +1,15 @@
+.datos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.datos-cont{
+        display: flex;
+        flex-direction: row;
+        gap: 90px;
+        padding: 20px 2px;
+}
+.datos-cont p{
+    text-align: center;
+    color: #A3ABB2;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import Pry from "../images/taza.jpg"
 
 function Navbar() {
     return (
@@ -8,10 +9,10 @@ function Navbar() {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">Inicio</Link>
+                        <Link to="/Login"><img src={Pry} class="card"></img></Link>
                     </li>
                     <li>
-                        <Link to="/Login">Login</Link>
+                        <Link to="/login">Login</Link>
                     </li>
                     <li>
                         <Link to="/Registro">Registro</Link>

@@ -1,0 +1,30 @@
+.ficha{
+    background-color: #171F26;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    width: min-content;
+    margin-left: 270px;
+}
+.port{
+    background-color: #0C151D;
+    width: 349.595px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    color: #A3ABB2;
+    font-size: 22px;
+}
+.skills{
+width: 382.37px;
+    background: none;
+    border: none;
+    color: #A3ABB2;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+}

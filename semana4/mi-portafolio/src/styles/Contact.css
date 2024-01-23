@@ -1,0 +1,33 @@
+.buttons-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    margin: 20px;
+}
+.first-b{
+    font-size: 22px;
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #FFE071;
+    color: #3D3D3D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    gap: 9px;
+}
+.second-b{
+    font-size: 22px;
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #171F26;
+    color: #A3ABB2;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

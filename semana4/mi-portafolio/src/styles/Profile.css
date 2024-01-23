@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    gap: 40px;
+}
+.img-perfil{
+    width: 192px;
+    height: 192px;
+    border-radius: 192px;
+}
+.icon-perfil{
+    display: flex;
+    width: max-content;
+}
+.icon-perfil button {
+    background-color: transparent;
+    border: none;
+}
+.icon-perfil img{
+    width: 36px;
+    height: 36px;
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+    color: #A3ABB2;
+}
+.perfil p{
+    margin-top: -20px;
+    font-size: 22px;
+}

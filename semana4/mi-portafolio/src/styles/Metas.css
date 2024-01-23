@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@900&display=swap');
+
+
+:root{
+  --back: #1B1C1F;
+  --white: #F6F7F9;
+  --green: #1C9675;
+  --blue: #117A7A;
+  --red: #B2324A;
+  --gray: #5A5A5A;
+  --lg: 40px;
+  --md: 20px;
+  --sm: 16px;
+
+}
+.main-meta{
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin:  0;
+  padding: 0;
+}
+.padre{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  color: var(--white);
+  margin-top: 70px;
+  font-size: var(--lg);
+}
+
+.agregar-texto{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 10px 0px 0px 10px;
+  border:  none;
+  height: 57px;
+  gap: 10px;
+}
+.input-nota{
+  width: 600px;
+  padding: 10px;
+  font-size: var(--md);
+}
+
+.boton-nota {
+  background-color: var(--green);
+  font-size: var(--md);
+  color: var(--title);
+  margin-left: -10px;
+  display: flex;
+  width: 94px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.container-nota{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+.buttons{
+  width: 52%;
+  margin: 10px;
+}
+.boton-1{
+  height: 45px;
+  width: 350px;
+  color: var(--blue);
+  font-size: var(--sm);
+  border-radius: 10px;
+  border: none;
+  margin-right: 5px;
+  text-align: left;
+  padding: 10px;
+
+}
+.boton-2{
+  border: none;
+  border-radius: 10px;
+  height: 45px;
+  width: 350px;
+  color: var(--red);
+  font-size: var(--sm);
+  margin-left: 5px;
+  text-align: left;
+  padding: 10px;
+}
+
+.nueva-nota{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nueva-nota ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.nueva-nota li{
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    background-color: var(--white);
+    justify-content: space-between;
+    padding: 20px;
+    width: 675px;
+    color: var(--gray);
+    font-size: var(--md);
+}
+
+.borrar-check{
+    display: flex;
+    flex-direction: row;
+}
+.borrar-check button{
+    margin-right: 20px;
+    display: flex;
+    border: none;
+    width: 30px;
+    gap: 5px;
+}
