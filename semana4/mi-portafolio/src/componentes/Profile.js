@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/Profile.css";
 import perfil from "../images/foto-perfil.jpg";
 import git from "../images/icons/github.svg";
-import yt from "../images/icons/youtube.svg";
 import X from "../images/icons/twitter.svg";
 import linke from "../images/icons/linkedin.svg";
 
